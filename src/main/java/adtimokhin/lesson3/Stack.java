@@ -1,6 +1,6 @@
 package adtimokhin.lesson3;
 
-import ru.adtimokhin.lesson2.Array;
+import adtimokhin.lesson2.Array;
 
 public class Stack {
     private Array stack;

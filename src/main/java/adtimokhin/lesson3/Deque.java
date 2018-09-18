@@ -1,6 +1,6 @@
 package adtimokhin.lesson3;
 
-import ru.adtimokhin.lesson2.Array;
+import adtimokhin.lesson2.Array;
 
 /**
  * Class Deque. Created by adtimokhin. 03.09.2018 (09:32)
