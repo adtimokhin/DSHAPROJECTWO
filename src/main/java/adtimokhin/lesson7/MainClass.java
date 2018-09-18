@@ -23,11 +23,11 @@ public class MainClass {
         graph.addEdge(2,3);
         graph.addEdge(2,4);
         graph.addEdge(4,7);
-        graph.addEdge(7,9);
         graph.addEdge(5,8);
         graph.addEdge(6,8);
         graph.addEdge(7,9);
         graph.addEdge(4,9);
+        graph.addEdge(0,9);
 
 //        graph.addVertex('A');
 //        graph.addVertex('B');
@@ -42,7 +42,8 @@ public class MainClass {
 //        graph.addEdge(1,4);
 //        graph.addEdge(0,4);
         graph.printMatrix();
-        graph.matrixShortestPath(0,0,0,9);
+//        graph.matrixShortestPath(0,0,0,9);
+        graph.shortestPath(5,4);
 
     }
 }
